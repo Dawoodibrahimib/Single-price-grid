@@ -1,0 +1,177 @@
+:root
+{
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright : hsl(71, 73%, 54%);
+    --Light : hsl(204, 43%, 93%);
+    --Grayish : hsl(218, 22%, 67%);
+}
+@font-face {
+    font-family:"Karla";
+    src: url("/Fonts/Karla-VariableFont_wght.ttf");
+}
+
+body
+{
+    background-color: var(--Light);
+    font-size: 16px;
+
+
+}
+.🐰
+{
+   border-radius: 10px;
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+.🥟
+{
+   
+    position: relative;
+    left: 50px;
+    top: 20px;
+
+}
+.🥧
+{
+    color: var(--Cyan);
+    font-family:"Karla";
+    font-size: 25px;
+
+}
+.🐟{
+    font-family: "Karla";
+    color: var(--Bright);
+    font-weight: 400;
+    font-size: 20px;
+}
+.🔫
+{
+    font-family: "Karla";
+    color: var(--Grayish);
+    font-weight: 700;
+    
+}
+.🐱
+{
+    position: relative;
+    top:5px;
+    font-weight: 700;
+
+}
+.💍{
+    border: none;
+    height: 290px;
+    width: 50%;
+    position: relative;
+    right: 7.2%;
+    background-color: var(--Cyan);
+    top: 35px;
+    border-bottom-left-radius: 10px;
+}
+.💡
+{
+    font-family: "Karla";
+    font-size: 18px;
+    position: relative;
+    left: 45px;
+    top: 40px;
+    font-weight: 700;
+    color: var(--Light);
+}
+.💰{
+    font-family:"Karla";
+    bottom: -25px;
+    font-size:35px;
+    position: relative;
+    font-weight: 700;
+    color: var(--Light);
+    left: 40px;
+    
+    
+}
+.🚗
+{
+    color: var();
+    position: relative;
+    bottom:38px;
+    left: 120px;
+    font-weight: 700;
+    font-family: "Karla";
+    color:#79DBDE;
+}
+.☀️
+{
+    font-family:"Karla";
+    color: var(--Light);
+    font-weight: 400;
+    left: 40px;
+    position: relative;
+    bottom: 40px;
+}
+.🧈
+{
+    width: 240px;
+    border: none;
+    padding: 6px;
+    height:55px;
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+    border-radius: 10px;
+    background-color:var(--Bright);
+
+
+}
+.📖{
+    font-size: 15px;
+    font-family:"Karla";
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    font-weight: 700;
+    color: var(--Light);
+
+}
+.🧈:hover
+
+{
+   background-color: hsl(71, 68%, 71%);;
+}
+.🐶
+{
+    
+    height: 290px;
+    width: 351px;
+    position: relative;
+    bottom:248.5px;
+    left: 349px;
+    border-bottom-right-radius: 10px;
+    background-color:#4ABEBD;
+    
+
+}
+.⌛{
+    position: relative;
+    color: var(--Light);
+    font-family:"Karla";
+    left:50px;
+    top: 40px;
+    font-size: 20px;
+}
+.📢
+{
+    font-family:"Karla";
+    top: 45px;
+    position: relative;
+    font-weight: 400;
+    left: 40px;
+    font-size: 12px;
+    color:#79DBDE;
+    line-height: 24px;
+}
